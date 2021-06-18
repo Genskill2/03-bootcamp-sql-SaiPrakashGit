@@ -2,28 +2,28 @@
 
 create table publisher(
     id integer primary key,
-    name text not null,
-    country text not null
+    name text,
+    country text
 );
 
 -- Creating books table
 
 create table books(
     id integer primary key,
-    title text not null,
-    publisher integer references publisher(id)
+    title text,
+    publisher integer
 );
 
 -- Creating subjects table
 
 create table subjects(
     id integer primary key,
-    name text not null
+    name text
 );
 
 -- Creating books_subjects table
 
 create table books_subjects(
-    book integer references books(id),
-    subject integer references subjects(id)
+    book integer,
+    subject integer
 );
