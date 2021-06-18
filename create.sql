@@ -1,5 +1,3 @@
-PRAGMA foreign_keys = ON;
-
 -- Creating publisher table
 
 create table publisher(
