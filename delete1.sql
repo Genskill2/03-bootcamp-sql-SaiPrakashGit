@@ -10,6 +10,6 @@
 
 -- Nested query to get id of the subject history    Worked !!!
 
-delete from books_subjects where books_subjects.subject = ( select id from subjects where name = 'History');
+delete from books_subjects where books_subjects.subject = ( select id from subjects where name = 'Science Fiction');
 
-delete from subjects where name = 'History';
+delete from subjects where name = 'Science Fiction';
