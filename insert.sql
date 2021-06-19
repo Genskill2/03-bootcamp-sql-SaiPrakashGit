@@ -22,7 +22,7 @@ insert into subjects(name) values("History");
 
 insert into books(title, publisher) values("The C Programming Language", 1);
 insert into books(title, publisher) values("The Go Programming Language", 1);
-insert into books(title, publisher) values("The Unix Programming Environment", 1);
+insert into books(title, publisher) values("The UNIX Programming Environment", 1);
 insert into books(title, publisher) values("Cryptonomicon", 2);
 insert into books(title, publisher) values("Deep Work", 3);
 insert into books(title, publisher) values("Atomic Habits", 4);
